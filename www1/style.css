@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;700&display=swap');
+
+* {
+	font-family: 'Dongle', sans-serif;
+	font-size: 30px;
+	box-sizing: border-box;
+}
+
+body {
+	background:;																																	
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+
+	padding: 0
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+		margin: 0;
+}
+
+#wrapper {
+	margin: 0 auto;
+	width: 1200px;
+	background: #eee;
+	height:;
+
+}
+
+header h1 {
+	font-size: 60px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+header nav {
+	overflow: hidden;
+	border-radius: 3px;
+
+}
+
+header nav a {
+	display: block;
+	width: 240px;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	float: left;
+
+
+}
+
+header nav a:hover {
+	background: #eee;
+	color: #000;
+	transition: 0.2s linear;
+
+}
+
+main {
+	overflow: hidden;
+}
+
+
+.product_item {
+	width: 400px;
+	height: 400px;
+	float: left;
+}
+
+.product_item img {
+	width: 100%;
+}
+
+footer {
+	background: #424242;
+	padding: 50px 0;
+
+}
+
+footer p {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ddd;
+}
+
+footer p span {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+footer p:last-child {
+	margin-top: 20px;
+}
